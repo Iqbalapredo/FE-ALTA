@@ -1,0 +1,268 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* navbar */
+
+
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding-left: 100px;
+    height: 80px;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    margin: 0px 10%;
+    height: 4em;
+}
+
+.menu {
+    margin: 2.5% 9%;
+    float: right;
+}
+
+.menu a {
+    margin: 10px;
+    color: #053260;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: #f47522;
+}
+
+.menu .actived {
+    color: #f47522;
+}
+
+.about-text {
+    text-align: left;
+    font: normal normal bold 40px/53px arial;
+    color: #19345e;
+    text-indent: 10%;
+}
+
+
+/* Section */
+
+.title {
+    font: normal normal bold 17px/47px Muli;
+    color: #19345e;
+}
+
+.title-date {
+    font: normal normal bold 15px/47px Muli;
+    line-height: normal;
+    color: #acacac;
+}
+
+.card-text {
+    font: normal normal normal 14px/20px SF Compact Display;
+    letter-spacing: 0px;
+    color: #19345e;
+}
+
+.card {
+    box-shadow: 0px 3px 6px #c1c3c736;
+}
+
+.card-header {
+    background-color: white !important;
+}
+
+
+/* Footer */
+
+footer .row {
+    background-color: #053260;
+    height: 100px;
+}
+
+footer p {
+    color: white;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    margin: 0px 6px;
+}
+
+footer .logo {
+    width: 110px;
+    height: 56px;
+}
+
+.circle-line {
+    top: 52vh;
+    left: 40vh;
+    min-height: 114vh;
+    min-width: 5px;
+    max-width: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* border : 1px solid black; */
+}
+
+.vertical-line {
+    top: 52vh;
+    left: 41.5vh;
+    min-height: 114vh;
+    min-width: 2px;
+    max-width: 50px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 1px solid #d2d2d2;
+    z-index: -2;
+}
+
+.circle-point {
+    height: 20px;
+    width: 20px;
+    background-color: #053260;
+}
+
+
+/* Responsive */
+
+
+/* Mobile */
+
+@media (max-width: 575.98px) {
+    footer .f-logo {
+        display: flex;
+        justify-content: center;
+    }
+    .respons {
+        display: none;
+    }
+    .about-text {
+        text-align: center;
+        text-indent: 0px;
+    }
+    .circle-line {
+        display: none;
+    }
+    .vertical-line {
+        display: none;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .circle-line {
+        top: 26%;
+        left: 17.5%;
+        min-height: 70%;
+        min-width: 5px;
+        max-width: 50px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        /* border : 1px solid black; */
+    }
+    .vertical-line {
+        top: 26.5%;
+        left: 18.5%;
+        min-height: 70%;
+        min-width: 2px;
+        max-width: 50px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 1px solid #d2d2d2;
+        z-index: -2;
+    }
+    .menu {
+        display: none !important;
+    }
+}
+
+
+/* Laptop */
+
+@media (min-width: 1024px) and (max-width: 1280px) {
+    .circle-line {
+        top: 20%;
+        left: 17.5%;
+        min-height: 114vh;
+        min-width: 5px;
+        max-width: 50px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* border : 1px solid black; */
+    }
+    .vertical-line {
+        top: 36%;
+        left: 18.5%;
+        min-height: 89vh;
+        min-width: 2px;
+        max-width: 50px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 1px solid #d2d2d2;
+        z-index: -2;
+    }
+}
+
+
+/* Monitor */
+
+@media (min-width: 1400px) {
+    .circle-line {
+        top: 20vh;
+        left: 30vh;
+        min-height: 114vh;
+        min-width: 5px;
+        max-width: 50px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /* border : 1px solid black; */
+    }
+    .vertical-line {
+        top: 38vh;
+        left: 31vh;
+        min-height: 78%;
+        min-width: 2px;
+        max-width: 50px;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        border: 1px solid #d2d2d2;
+        z-index: -2;
+    }
+}
+
+
+/* navbar end */

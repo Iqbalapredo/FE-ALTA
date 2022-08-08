@@ -1,0 +1,192 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+/* navbar */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding-left: 100px;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 120px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 20px;
+    color: black;
+    padding: 20px;
+}
+
+nav ul li a:hover {
+    color: #f47522;
+    transition: 0.5s;
+}
+
+
+/* navbar end */
+
+
+/* about */
+
+.about {
+    width: 100%;
+    height: 200px;
+    background-color: #f4f7fc;
+}
+
+.about h1 {
+    color: #19345e;
+    padding-top: 120px;
+    padding-left: 125px;
+}
+
+.text1 {
+    width: 600px;
+    float: left;
+}
+
+.text1 p {
+    width: 424px;
+    height: 80px;
+    margin-left: 125px;
+    padding-top: 50px;
+}
+
+.text1 h2 {
+    width: 424px;
+    height: 80px;
+    margin-left: 125px;
+    padding-top: 50px;
+}
+
+.text1 h2 {
+    width: 424px;
+    height: 40px;
+}
+
+.text1 h3,
+h4,
+h5 {
+    width: 424px;
+    height: 40px;
+    margin-left: 141px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 424px;
+    height: 40px;
+    margin-left: 141px;
+    margin-bottom: 100px;
+    margin-top: -50px;
+    position: relative;
+}
+
+td,
+th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+}
+
+.img-about {
+    float: right;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+.gambar {
+    width: 355px;
+    height: 355px;
+    border-radius: 10px;
+}
+
+.dot {
+    width: 90px;
+    height: 76px;
+    position: absolute;
+    bottom: 30px;
+    left: 920px;
+}
+
+.rounded {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    background-color: black;
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 8px;
+}
+
+
+/* about end */
+
+
+/* footer */
+
+.footer {
+    width: 100%;
+    height: 141px;
+    background-color: #19345e;
+    display: flex;
+    color: white;
+}
+
+.logo-footer img {
+    width: 110px;
+    height: 57px;
+    padding-left: 125px;
+    padding-top: 45.82px;
+    padding-right: 430px;
+}
+
+.sosmed {
+    padding-top: 45.82px;
+    margin-right: 60px;
+}
+
+.sosmed p {
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.sosmed img {
+    width: 20.17px;
+    height: 18px;
+    margin: 10px auto;
+    padding-left: 10px;
+}
+
+.copyright {
+    padding-top: 70.95px;
+    margin-left: 300px;
+}
+
+.copyright p {
+    font-size: 14px;
+    padding-left: 13px;
+}
+
+
+/* footer end */
